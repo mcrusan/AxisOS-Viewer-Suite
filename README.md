@@ -1,26 +1,27 @@
-<!--
-==============================================================================
-File:        README.md
-Description: Official technical documentation for Crusan & Co. AxisOS™ Viewer Suite — Dual-Pane Binary Inspection Tooling (Hex, Octal, Binary & ASCII).
-Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
-Date:        2026110901
-Version:     v1.3.0-Silicon
-==============================================================================
--->
-<!-- 2026110901 (MFC/PP/AGY) Promoted root README.md with canonical 5-Field SOP Header & Crusan & Co. IP/Trademark notice. -->
-<!-- 2026062301 (MFC/PP) Standardized AxisOS Viewer Suite v1.2 documentation. -->
+# -----------------------------------------------------------------------------
+# File:        README.md
+# Description: Official technical documentation for Crusan & Co. AxisOS™ Viewer Suite — Dual-Pane Binary Inspection Tooling (Hex, Octal, Binary & ASCII).
+# Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+# Date:        2026111501
+# Version:     v1.3.1-Silicon
+# -----------------------------------------------------------------------------
+# 2026111501 (MFC/AGY) Converted header to canonical # 5-Field SOP format and added GitHub Sponsors badge & link.
+# 2026110901 (MFC/PP/AGY) Promoted root README.md with canonical 5-Field SOP Header & Crusan & Co. IP/Trademark notice.
+# 2026062301 (MFC/PP) Standardized AxisOS Viewer Suite v1.2 documentation.
 
 # Crusan & Co. — AxisOS™ Viewer Suite (`axis-view-gui`)
 ### **Deterministic C / GTK3 Dual-Pane Binary Inspector (Hex, Octal, Binary & Synchronized ASCII) with Hot-Loadable Plugin ABI**
 
 [![Pillars: HONEST • AUDITABLE • OWNED](https://img.shields.io/badge/AxisOS%E2%84%A2-HONEST%20%E2%80%A2%20AUDITABLE%20%E2%80%A2%20OWNED-brightgreen.svg)](https://axisos.pro)
 [![Language: C / GTK3](https://img.shields.io/badge/Stack-Pure%20C%20%E2%80%A2%20GTK3%20%E2%80%A2%20GModule-blue.svg)](hex-viewer/Makefile)
-[![Company: Crusan & Co.](https://img.shields.io/badge/Company-Crusan%20%26%20Co.-gold.svg)](https://axisos.pro)
+[![Company: Crusan & Co.](https://img.shields.io/badge/Company-Crusan%20%26%20Co.-gold.svg)](https://crusan.net)
+[![Sponsor @mcrusan](https://img.shields.io/badge/Sponsor-%40mcrusan-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/mcrusan)
 
 **Parent Enterprise:** Crusan & Co.  
 **Flagship Platform:** **AxisOS™** (*U.S. Trademark Application Serial No. `99878469`*)  
 **Architect:** Marc F. Crusan (w/ Pocket Professor & AGY)  
 **Website:** [https://axisos.pro](https://axisos.pro)  
+**Sponsor Open-Source R&D:** [https://github.com/sponsors/mcrusan](https://github.com/sponsors/mcrusan)  
 
 > **Intellectual Property & Proprietary Core Exclusion Notice:** This repository provides the **AxisOS™ Viewer Suite (`axis-view-gui`)** desktop binary inspection utility and `AxisPluginInfo` shared-object plugin ABI engineered by **Crusan & Co.** The underlying **AxisOS™ Native Bare-Metal Kernel** (`axisos-kernel.img`), the **freestanding C99 direct kernel syscall userland** (`svc #0`), the **Sovereign Seven (`Sov-7`)** autonomous embedded daemon suite, `RAMGAK` deterministic memory bracket tooling, and commercial AxisOS™ hardware distributions remain the exclusive, proprietary intellectual property of **Crusan & Co.** (Marc F. Crusan). All Rights Reserved.
 
