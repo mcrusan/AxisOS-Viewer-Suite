@@ -1,13 +1,16 @@
-# -----------------------------------------------------------------------------
-# File:        README.md
-# Description: Official technical documentation for Crusan & Co. AxisOS™ Viewer Suite — Dual-Pane Binary Inspection Tooling (Hex, Octal, Binary & ASCII).
-# Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
-# Date:        2026111501
-# Version:     v1.3.1-Silicon
-# -----------------------------------------------------------------------------
-# 2026111501 (MFC/AGY) Converted header to canonical # 5-Field SOP format and added GitHub Sponsors badge & link.
-# 2026110901 (MFC/PP/AGY) Promoted root README.md with canonical 5-Field SOP Header & Crusan & Co. IP/Trademark notice.
-# 2026062301 (MFC/PP) Standardized AxisOS Viewer Suite v1.2 documentation.
+<!--
+------------------------------------------------------------------------------
+File:        README.md
+Description: Official technical documentation for Crusan & Co. AxisOS™ Viewer Suite — Dual-Pane Binary Inspection Tooling (Hex, Octal, Binary & ASCII).
+Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+Date:        2026111502
+Version:     v1.3.2-Silicon
+------------------------------------------------------------------------------
+-->
+<!-- 2026111502 (MFC/AGY) Restored hidden comment header block so GitHub Markdown renders cleanly without H1 header lines. -->
+<!-- 2026111501 (MFC/AGY) Added GitHub Sponsors badge & link. -->
+<!-- 2026110901 (MFC/PP/AGY) Promoted root README.md with canonical 5-Field SOP Header & Crusan & Co. IP/Trademark notice. -->
+<!-- 2026062301 (MFC/PP) Standardized AxisOS Viewer Suite v1.2 documentation. -->
 
 # Crusan & Co. — AxisOS™ Viewer Suite (`axis-view-gui`)
 ### **Deterministic C / GTK3 Dual-Pane Binary Inspector (Hex, Octal, Binary & Synchronized ASCII) with Hot-Loadable Plugin ABI**
