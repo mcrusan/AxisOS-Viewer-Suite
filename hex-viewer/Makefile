@@ -1,20 +1,15 @@
-#===============================================================================
-#  FILE:        Makefile
-#  PROJECT:     AxisOS — Viewer Suite
-#  PURPOSE:     Build rules for axis-view-gui binary with obj/ directory.
-#
-#  AUTHOR:      Marc & PP (Pocket Professor)
-#  CREATED:     2026-06-04
-#  VERSION:     1.2
-#===============================================================================
-#===============================================================================
-#  FILE:        Makefile
-#  PROJECT:     AxisOS — Viewer Suite
-#  PURPOSE:     Build rules for axis-view-gui + plugin auto-build (obj/ aware)
-#===============================================================================
+# -----------------------------------------------------------------------------
+# File:        hex-viewer/Makefile
+# Description: Build rules for Crusan & Co. AxisOS Viewer Suite (axis-view-gui) binary & plugins.
+# Author:      Marc F. Crusan (MFC) / Crusan & Co. w/ PP & AGY (AXEL)
+# Date:        2026111816
+# Version:     v1.3.0-Silicon
+# -----------------------------------------------------------------------------
+# 2026111816 (MFC/AGY) Enforced canonical 5-Field SOP Header and added -ffile-prefix-map for clean-room reproducible binaries.
+# 2026060401 (MFC/PP) Initial Makefile with obj/ & plugin auto-build rules.
 
 CC      := gcc
-CFLAGS  := -Wall -Wextra -g -fPIC `pkg-config --cflags gtk+-3.0`
+CFLAGS  := -Wall -Wextra -O2 -ffile-prefix-map=$(CURDIR)=. -fPIC `pkg-config --cflags gtk+-3.0`
 LDFLAGS := `pkg-config --libs gtk+-3.0 gmodule-2.0`
 
 INCLUDES := -Iinclude
